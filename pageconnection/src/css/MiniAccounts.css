@@ -1,0 +1,24 @@
+.miniacc{
+    border-radius: 20px;
+    width: 200px;
+    height: 250px;
+    box-shadow: 0px 4px 0px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.rectangle{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 35px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.acc1{
+    padding-top: 6px;
+}
+
+.addAccount3{
+    text-decoration: none;
+    color: black;
+}

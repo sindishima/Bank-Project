@@ -1,0 +1,28 @@
+.smallerPanel2{
+    padding: 50px 250px;
+    background-image: linear-gradient(to left,rgb(97, 122, 227, 0.3),rgb(234, 79, 207, 0.4));
+    height: 530px;
+    width: 675px;
+    border-radius: 0 20px 20px 0px;
+}
+
+.panel2{
+    display: flex;
+    background: #E0E6FF;
+    height: 630px;
+    padding: 40px;
+}
+
+.smallAccountList2{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 200px); 
+    width: 780px;
+    height: 520px;
+    overflow-x: scroll;
+    background-color: red;
+}
+
+.smallAccountList2::-webkit-scrollbar{
+    display: none;
+}

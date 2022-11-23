@@ -1,0 +1,81 @@
+.accountList1{
+    padding: 50px 250px;
+    background-image: linear-gradient(to left,rgb(97, 122, 227, 0.3),rgb(234, 79, 207, 0.4));
+    height: 530px;
+    width: 675px;
+    border-radius: 0 20px 20px 0px;
+}
+
+.panel1{
+    display: flex;
+    background: #E0E6FF;
+    height: 630px;
+    /* width: 1500px; */
+    padding: 40px;
+}
+
+.smallAccountList1{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 200px); 
+    width: 780px;
+    height: 520px;
+    overflow-x: scroll;
+}
+
+.smallAccountList1::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+/*POPUP*/
+.categoryPopup{
+    position: fixed;
+    width: 400px;
+    height: 240px;
+    background-color: rgb(252, 178, 245);
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 300px;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.497));
+}
+
+.closeImage{
+    width: 30px;
+}
+
+.popupButton{
+    border: none;
+    background-color: transparent;
+    margin-left: 360px;
+    margin-top: 10px;
+}
+
+.writeCategoryName{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.inputCurrency{
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.497));
+}
+
+.inputBalance{
+    border-radius: 10px;
+    border: none;
+    filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.497));
+}
+
+.confirmPopup1{
+    border: none;
+    border-radius: 10px;
+    color: rgb(84, 25, 57);
+}
+
+.buttonPopupProduct{
+    border: none;
+    background-color: transparent;
+}

@@ -1,0 +1,132 @@
+.accountList{
+    padding: 50px 250px;
+    background-image: linear-gradient(to left,rgb(97, 122, 227, 0.3),rgb(234, 79, 207, 0.4));
+    height: 530px;
+    width: 675px;
+    border-radius: 0 20px 20px 0px;
+}
+
+.panel{
+    display: flex;
+    background: #E0E6FF;
+    height: 630px;
+    /* width: 1500px; */
+    padding: 40px;
+}
+
+.accountCard{
+    display: flex;
+    width: 780px;
+    height: 520px;
+}
+
+.moneyImg{
+    width: 130px;
+}
+
+.account{
+    background-color: #FFC2EE;
+    padding-top: 40px;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px 0px 0px 20px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.card{
+    padding-top: 40px;
+    background-color: #FFC3DC;
+    width: 450px;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.cardImg{
+    width: 150px;
+}
+
+.accountMethods{
+    padding: 30px;
+}
+
+.createCard{
+    background-color: #FEA9CD;
+    height: 40px;
+    border-radius: 20px;
+
+    font-style: bold;
+    font-size: 16px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.createCardButton{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+}
+
+.cardMethods{
+    padding: 30px;
+    gap: 30px;
+    display: grid;
+    overflow-y: scroll;
+    height:182px;
+}
+
+.cardMethods::-webkit-scrollbar{
+    display: none;
+}
+
+.withdraw{
+    background-color: #D8C5FF ;
+    height: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.withdrawButton{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+}
+
+.deposit{
+    background-color: #CBA2FF;
+    height: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.depositButton{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+}
+
+.makeTransaction{
+    background-color: #F4A6FF;
+    height: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.makeTransctionButton{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+}
+
+
+.getAllTransactions{
+    background-color: #FF94C1;
+    height: 40px;
+    border-radius: 20px;
+    filter: drop-shadow(0px 1px 1px grey);
+}
+
+.getAllTransactionsButton{
+    background-color: transparent;
+    border: none;
+    width: 290px;
+}
